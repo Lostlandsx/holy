@@ -766,7 +766,7 @@ local ok, err = pcall(function()
             end
 
             if cr:getConfig()["onlineLoad"] then
-                cr:load("https://github.com/Lostlandsx/holy/commit/8b9e3b64aad81e054f5cf61fdfbfa3564a8b8024", mainFunc)
+                cr:load("https://raw.githubusercontent.com/Lostlandsx/holy/main/Heal%20routine", mainFunc)
             else
                 mainFunc()
             end
